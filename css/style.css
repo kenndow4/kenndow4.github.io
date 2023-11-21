@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.contenedor-header{
+    
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background: #fff;
+}
+
+.contenedor-header header{
+
+   
+    width: 85%;
+    padding: 13px 0px;
+    margin: auto;
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+
+
+.contenedor-header header .contenedor-search{
+
+    background: #ebf2f7;
+    width: 40%;
+    height: 38px;
+    display: flex;
+    padding: 5px  10px;
+    border: solid 1px #e0e0e0;
+    padding-left: 20px;
+    border-radius: 5px ;
+    transition: all ease-in-out 1s;
+}
+
+.contenedor-search input{
+    height: 100%;
+    
+    border: none;
+    outline: none;
+}
+
+.contenedor-search input[type='search']{
+    width: 100%;
+    background: none;
+    font-size: 13px;
+}
+
+
+
+.contenedor-search button{
+    
+    border: none;
+    background: none;
+    width: 30px;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contenedor-search button i{
+  font-size: 14px;
+}
+
+.contenedor-header header nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+}
+
+.contenedor-header header nav a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3c3c3d;
+    font-size: 15px;
+}
+
+.contenedor-header header nav .login{
+    border: solid 1px rgb(26,115,232);
+    color: rgb(26,115,232);
+    padding: 8px;
+border-radius: 5px;
+}
+.contenedor-header header nav .login-ya{
+    border: solid 1px rgb(26,115,232);
+    background:  rgb(26,115,232);
+    color: #fff;
+    padding: 8px 15px;
+border-radius: 5px;
+}
+
+.ofertas{
+    border: solid 1px rgb(26,115,232);
+    background:  rgb(26,115,232);
+    color: #fff;
+    padding: 13px 8px;
+border-radius: 5px;
+font-weight: 600;
+width: 200px;
+margin: auto;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+margin-top: 20px;
+transition: all ease-in-out 1s;
+}
+
+.ofertas:hover{
+
+    background: #cc3803;
+}
+
+/* presentacion */
+
+.contenedor-mostrador{
+    
+    width: 100%;
+    margin: 5% auto;
+   
+   
+   display: grid;
+  grid-template-columns: 30% 50%;
+  
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+    margin-top: 150px;
+}
+
+.contenedor-mostrador .contenedor-mandato{
+
+  
+    text-align: left;
+    
+}
+
+.contenedor-mostrador .contenedor-mandato h1{
+    font-size: 45px;
+}
+
+.contenedor-mostrador .img{
+    background-image: url('../img/presentacion2.png');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+
+/* esta es la parte de titulo */
+
+.contenedor-contenido{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10%;
+   
+}
+
+.iconos{
+    width: 45%;
+    height: 50px;
+    
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconos a{
+    text-decoration: none;
+    color: #262627;
+    border-radius: 50px;
+    padding: 7px 15px;
+    border: solid 1px #262627;
+    transition: all ease-in-out 1s;
+    font-size: 15px;
+
+}
+
+.iconos a:hover{
+    background: #262627;
+    color: #fff;
+}
+
+.iconos .active{
+    background: #262627;
+    color: #fff;
+}
+
+
+.titulo{
+
+    text-align: left;
+    width: 40%;
+    color: #262627;
+    font-weight: 600;
+    
+    margin-top: 5%;
+    font-size: 40px;
+
+}
+
+/* casa */
+
+.contenedor-contenido .contenedor-alquiler{
+
+
+width: 100%;
+margin-top: 2%;
+
+display: grid;
+grid-template-columns: 23% 23% 23% 23%;
+justify-content: space-between;
+
+}
+
+.cont-cont{
+margin: 3% 0px;
+   text-decoration: none;
+    display: grid;
+    justify-content: space-between;
+    height: 350px;
+    
+
+}
+
+.cont{
+    width: 100%;
+    height: 250px;
+}
+
+.cont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+    background: #ccc;
+}
+
+.titulo-cont{
+    font-weight: 600;
+    color: #000;
+    margin: 3px 0px;
+}
+
+.par-cont{
+width: 97%;
+    color: #444444;
+}
+
+.cont-alq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio{
+    margin-top: 3px;
+    font-weight: 600;
+    color: #000;
+}
+
+.cont-alq .alq{
+
+    background: #f50537;
+    width: 65px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+
+.publicidad{
+
+    margin: 2% 0px;
+    width: 100%;
+    background: #ccc;
+    background-image: url('../img/publicidad.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+.publicidad p{
+    font-size: 35px;
+    width: 50%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cont-publicidad{
+
+   
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 40%;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.cont-publicidad h1{
+    
+     text-align: left;
+     
+     font-weight: 500;
+     font-size: 45px;
+}
+
+.cont-publicidad p{
+    text-align: left;
+    color: #3c3c3d;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+footer{
+   
+    width: 100%;
+    height: 400px;
+    background: #000;
+}
+
+.formato{
+
+width: 100%;
+height: 100vh;
+background: rgba(255, 255, 255, 0.90);
+position: fixed;
+top: 0px;
+z-index: +1;
+
+display: none;
+
+
+}
+
+.formato .cont-cont-form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+}
+.formato .cont-form{
+    width: 60%;
+    height: 650px;
+    margin: auto;
+   
+}
+
+.formato .titu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.formato .cont-form .titu h1{
+    font-size: 22px;
+}
+
+.formato .cont-form .titu i{
+    font-size: 22px;
+}
+
+.formato .cont-img{
+
+width: 100%;
+padding: 5% 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.formato .cont-form img{
+    width: 50%;
+}
+
+.formato .cont-form p{
+    font-size: 17px;
+    text-align: center;
+}
